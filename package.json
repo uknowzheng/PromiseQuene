@@ -1,0 +1,23 @@
+{
+  "name": "promise-quene",
+  "version": "1.0.1",
+  "description": "Provide a current-limiting Promise queue for solving multiple Promise concurrency.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uknowzheng/PromiseQuene.git"
+  },
+  "author": "uknowzheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uknowzheng/PromiseQuene/issues"
+  },
+  "homepage": "https://github.com/uknowzheng/PromiseQuene#readme"
+}
