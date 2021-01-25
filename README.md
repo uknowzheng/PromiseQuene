@@ -24,8 +24,11 @@ const pq = new PromiseQuene({
     // you can do something async
     setTimeout(()=>{
       console.log(v);
-      resolve();
+      resolve("result");
     },1000);
+  }).then(result => {
+     // if you want to handle the result,just use fetch() api
+     console.log(result);
   }))
 });
 
